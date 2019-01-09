@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "991023575676",
+    "firebase_url": "https://attendanceapp-9974e.firebaseio.com",
+    "project_id": "attendanceapp-9974e",
+    "storage_bucket": "attendanceapp-9974e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991023575676:android:29981379e47f6a22",
+        "android_client_info": {
+          "package_name": "com.naqibhatti.mod.madfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991023575676-nlui04ieuj65fr824v149j6v8j1d6k7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naqibhatti.mod.madfinal",
+            "certificate_hash": "668327147e4fe1c3650ea89b5b4f01fc8944d477"
+          }
+        },
+        {
+          "client_id": "991023575676-sgl5juhhbo87jcac1udhses7bjmp14jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgfQ4PLp5nlsXSlDfjOqb3WTGLFaU2Q0g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991023575676-sgl5juhhbo87jcac1udhses7bjmp14jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

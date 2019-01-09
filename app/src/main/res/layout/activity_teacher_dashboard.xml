@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bgsimple"
+    tools:context=".TeacherDashboard">
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="106dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/TakeAttendance"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Take Attendance" />
+
+    <Button
+        android:id="@+id/AllowAutmoaticAttendance"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:text="Allow Autmoatic Attendance" />
+
+    <Button
+        android:id="@+id/SeeReporting"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:text="Attendance Reporting" />
+
+
+
+</LinearLayout>

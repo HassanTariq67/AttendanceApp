@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgsimple">
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="106dp"
+
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="AuthenticationType"
+        android:layout_marginLeft="50dp"
+        android:enabled="false"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/authenticationType"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:text="Login" />
+
+</LinearLayout>

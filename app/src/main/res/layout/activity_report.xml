@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bgsimple"
+    tools:context=".Report">
+
+
+    <Button
+        android:id="@+id/courseWise"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        android:text="Course wise" />
+
+    <Button
+        android:id="@+id/individualReport"
+        android:layout_width="198dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="wrap_content"
+        android:text="Individual Report" />
+</LinearLayout>
